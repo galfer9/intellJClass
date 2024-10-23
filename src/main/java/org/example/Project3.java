@@ -29,7 +29,7 @@ public class Project3 {
 
         String time = todaylist.get(0).text();
         String name = todaylist.get(1).text().split(" ")[1]; //종목명 빼고 이름만 나오게끔 split(한칸빼기) 씀
-        String juga = todaylist.get(3).text().split(" ")[1]; //현재 주가
+        String juga = todaylist.get(3).text().split(" ")[1]; //현재 주가 split은 " "즉 공란으로 문자열을 나눠주고 배열로 넣어준다..ㅣ
         String dungRakrate = todaylist.get(3).text().split(" ")[6]; //퍼센트 등락률
         String siga = todaylist.get(5).text().split(" ")[1]; //시가
         String goga = todaylist.get(6).text().split(" ")[1]; //고가
